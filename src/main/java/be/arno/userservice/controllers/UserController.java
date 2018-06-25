@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/users", produces = APPLICATION_JSON_UTF8_VALUE)
+@RequestMapping(value = "/companies", produces = APPLICATION_JSON_UTF8_VALUE)
 public class UserController {
 
-  @GetMapping
-  public String test() {
-    return "User-Service";
+  @GetMapping(value = "hello")
+  public String helloFromUserService() {
+    return "Hello from Company-Service";
   }
 
 }
