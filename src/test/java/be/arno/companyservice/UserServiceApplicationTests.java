@@ -1,4 +1,4 @@
-package be.arno.userservice;
+package be.arno.companyservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
